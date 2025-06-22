@@ -1,3 +1,5 @@
+Got it! Here's your assignment with a **copyable block** so you can easily grab the full text:
+
 
 ## 🎓 Student Information
 - **Name**: Vishal Vusnagiri
@@ -18,14 +20,14 @@ Objective:
 Build a question answering system using Hugging Face's Transformers library to extract answers from text based on context.
 
 Key Steps:
-- Used the `pipeline` API for quick QA model setup.
-- Evaluated with both the default model and `deepset/roberta-base-squad2`.
+- Used the pipeline API for quick QA model setup.
+- Evaluated with both the default model and deepset/roberta-base-squad2.
 - Created a custom context to ask multiple questions.
 
-Tools: `transformers`, `torch`
+Tools: transformers`, `torch`
 
 Sample Output:
-```json
+``json 
 {
   "answer": "Charles Babbage",
   "score": 0.87,
@@ -34,9 +36,7 @@ Sample Output:
 }
 
 
-
-#Task 2: Digit-Class Controlled Image Generation with Conditional GAN
-
+# Task 2: Digit-Class Controlled Image Generation with Conditional GAN
 
 Objective:
 The goal of this project is to implement a **Conditional Generative Adversarial Network (cGAN)** that generates MNIST digit images based on a given class label (0–9). This helps demonstrate how **conditioning a GAN** on class labels allows for controlled generation of specific outputs.
@@ -56,7 +56,7 @@ The goal of this project is to implement a **Conditional Generative Adversarial 
   - Outputs a probability indicating whether the image-label pair is real or fake.
 
 - Conditional Input:
-  - Used `nn.Embedding` for converting labels into vectors.
+  - Used nn.Embedding for converting labels into vectors.
   - Labels are injected into both the Generator and Discriminator.
 
 ---
@@ -76,5 +76,10 @@ The goal of this project is to implement a **Conditional Generative Adversarial 
 After training:
 - The Generator successfully produces digits corresponding to the given labels.
 - A row of 10 generated digits (0–9) visually confirms correct class conditioning.
+```
+
+
+
+
 
 

@@ -1,6 +1,6 @@
 
 ## 🎓 Student Information
-- **Name** Vishal Vusnagiri
+- **Name**: Vishal Vusnagiri
 - **Student ID**: 700763454
 - **Course**: Neural Network & Deep Learning
 
@@ -76,4 +76,5 @@ The goal of this project is to implement a **Conditional Generative Adversarial 
 After training:
 - The Generator successfully produces digits corresponding to the given labels.
 - A row of 10 generated digits (0–9) visually confirms correct class conditioning.
+
 
